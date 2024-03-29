@@ -15,7 +15,7 @@
   - [Authors](#authors)
 ## Live version
 
-You can find the demo [**here**](https://vov4ukz53.github.io/movies-browser/movie)
+You can find the demo [**here**](https://vov4ukz53.github.io/movies-browser)
 
 ## Description
 
