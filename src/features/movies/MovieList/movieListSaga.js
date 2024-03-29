@@ -9,7 +9,7 @@ import {
 import { apiUrlGenres, apiUrlPopularMovies, apiUrlSearchMovies } from "../../apiData";
 
 function* fetchMovieListHandler({ payload: { page, query } }) {
-  const moviesWithoutQuery = `${apiUrlPopularMovies}&page=${page ? page : '1'}`;
+  const moviesWithoutQuery = `${apiUrlPopularMovies}&page=${page ? page : "1"}`;
   const moviesWithQuery = `${apiUrlSearchMovies}&query=${query}&page=${page}`;
 
   try {

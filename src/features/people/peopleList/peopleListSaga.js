@@ -8,7 +8,7 @@ import {
 import { apiUrlPopularPeople, apiUrlSearchPeople } from "../../apiData";
 
 function* fetchPeopleListHandler({ payload: { page, query } }) {
-  const peopleWithoutQuery = `${apiUrlPopularPeople}&page=${page ? page : '1'}`;
+  const peopleWithoutQuery = `${apiUrlPopularPeople}&page=${page ? page : "1"}`;
   const peopleWithQuery = `${apiUrlSearchPeople}&query=${query}&page=${page}`;
 
   try {
