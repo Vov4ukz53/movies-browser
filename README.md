@@ -46,6 +46,7 @@ This project uses API provided by [**The Movie Database**](https://www.themovied
 - HTML5
 - CSS4
 - JavaScript ES6+ version
+- TypeScript
 - React
 - React Router v6.2.1
 - Redux with react-redux v7.2.6
