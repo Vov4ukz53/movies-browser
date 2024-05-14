@@ -25,7 +25,7 @@ export const ErrorPage = () => {
           : "Please check your network connection and try again"
         }
       </ErrorMessage>
-      <HomepageButton to={"/"}>Back to homepage</HomepageButton>
+      <HomepageButton to="/movies-browser/">Back to homepage</HomepageButton>
     </ErrorContainer>
   );
 };
